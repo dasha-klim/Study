@@ -66,10 +66,10 @@ public class Main {
         // ???
 
         //b. Identify the productId which appears most frequently across all transactions.
-        Optional<Map.Entry<Long, Long>> mostOftenProdId = records.stream()
-                .collect(Collectors.groupingBy(record -> record.getProductId(), Collectors.counting()))
+        Optional<Map.Entry<String, Long>> mostOftenProdId = records.stream()
+                .collect(Collectors.groupingBy(SaleRecord::getProductName, Collectors.counting()))
                 .entrySet().stream().max(Map.Entry.comparingByValue());
-        System.out.println("Most often prod id " + mostOftenProdId.get().getKey());
+        System.out.println("Most often product " + mostOftenProdId.get().getKey());
 
 
     }
