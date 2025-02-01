@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Reduce - Task 1: Reduce and Collect
-        // Objective: Use reduce to convert a list of Transactions (date, amount, type)
+        // Objective: Use regina.reduce to convert a list of Transactions (date, amount, type)
         // into a TransactionSummary class, then collect these summaries into a map grouped by type.
         List<Transaction> transactions = getTransactions();
         ArrayList<TransactionSummary> transactionSummaries = transactions.stream().reduce(new ArrayList<TransactionSummary>(), (list, tr2) -> {
@@ -31,7 +31,7 @@ public class Main {
         // Task 2
         //Calculate the sum (10 / (list element)).
         // For example, if your list is: 4, 5, 1, then the sum will be (10/4 + 10/5 + 10/1).
-        // This needs to be done using streams, specifically with the use of reduce.
+        // This needs to be done using streams, specifically with the use of regina.reduce.
         // If by chance an element or some elements are zeros, the stream should not crash.
         // It should calculate the sum of all valid values.
         // Additionally, the result should not only provide the required sum but also indicate how many and what errors were encountered.

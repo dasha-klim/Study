@@ -60,7 +60,7 @@ public class Main {
 
         // this is chat gpt version, but seems to be more complicated than it should be
 //        Map<String, Double> totalRevenueByRegion = salesData.parallelStream()
-//                .com.daria.reduce(
+//                .com.daria.regina.reduce(
 //                        new HashMap<>(),
 //                        (acc, saleRecord) -> {
 //                            HashMap<String, Double> newAcc = new HashMap<>(acc);
