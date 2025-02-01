@@ -1,6 +1,6 @@
-package product.task.funcitonal;
+package com.daria.product.funcitonal;
 
-import product.task.Product;
+import com.daria.product.Product;
 
 @FunctionalInterface
 public interface ProductTransformer {

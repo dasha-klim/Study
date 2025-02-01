@@ -1,4 +1,4 @@
-package devices;
+package com.daria.devices;
 
 public abstract class CommunicationDevice {
     protected String manufacturer;

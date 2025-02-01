@@ -1,5 +1,5 @@
-import devices.*;
-import interfaces.VoiceCallable;
+import com.daria.devices.*;
+import com.daria.interfaces.VoiceCallable;
 
 import java.util.ArrayList;
 import java.util.List;

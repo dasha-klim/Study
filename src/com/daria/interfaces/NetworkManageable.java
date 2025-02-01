@@ -1,4 +1,4 @@
-package interfaces;
+package com.daria.interfaces;
 
 public interface NetworkManageable {
 

@@ -1,8 +1,8 @@
-package product.task;
+package com.daria.product;
 
-import product.task.funcitonal.ProductAction;
-import product.task.funcitonal.ProductPredicate;
-import product.task.funcitonal.ProductTransformer;
+import com.daria.product.funcitonal.ProductAction;
+import com.daria.product.funcitonal.ProductPredicate;
+import com.daria.product.funcitonal.ProductTransformer;
 
 import java.util.List;
 

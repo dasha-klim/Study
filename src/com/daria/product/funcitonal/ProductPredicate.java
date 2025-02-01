@@ -1,8 +1,6 @@
-package product.task.funcitonal;
+package com.daria.product.funcitonal;
 
-import product.task.Product;
-
-import java.util.function.Predicate;
+import com.daria.product.Product;
 
 @FunctionalInterface
 public interface ProductPredicate /*extends Predicate<Product>*/ {

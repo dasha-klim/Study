@@ -1,4 +1,4 @@
-package streams;
+package com.daria.streams;
 
 public class SaleRecordRegion {
     double revenue;

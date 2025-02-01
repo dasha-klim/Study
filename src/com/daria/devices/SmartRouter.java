@@ -1,7 +1,7 @@
-package devices;
+package com.daria.devices;
 
-import interfaces.DataTransferable;
-import interfaces.NetworkManageable;
+import com.daria.interfaces.DataTransferable;
+import com.daria.interfaces.NetworkManageable;
 
 public class SmartRouter extends CommunicationDevice implements DataTransferable, NetworkManageable {
 

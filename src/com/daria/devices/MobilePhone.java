@@ -1,6 +1,6 @@
-package devices;
+package com.daria.devices;
 
-import interfaces.VoiceCallable;
+import com.daria.interfaces.VoiceCallable;
 
 public class MobilePhone extends CommunicationDevice implements VoiceCallable {
 

@@ -1,4 +1,4 @@
-package sales_analytics;
+package com.daria.sales_analytics;
 
 import java.util.Objects;
 

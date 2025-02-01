@@ -1,4 +1,4 @@
-package product.task;
+package com.daria.product;
 
 import java.util.Objects;
 

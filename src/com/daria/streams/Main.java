@@ -1,4 +1,4 @@
-package streams;
+package com.daria.streams;
 
 
 import java.util.Arrays;
@@ -27,7 +27,7 @@ public class Main {
         System.out.println("Sum with condition " + sumWithConditions);
 
         // TASK2 – STREAMS
-        // DONE in sales_analytics -> Main
+        // DONE in com.daria.sales_analytics -> Main
 
 
         // TASK3 – ADVANCED REDUCE
@@ -60,7 +60,7 @@ public class Main {
 
         // this is chat gpt version, but seems to be more complicated than it should be
 //        Map<String, Double> totalRevenueByRegion = salesData.parallelStream()
-//                .reduce(
+//                .com.daria.reduce(
 //                        new HashMap<>(),
 //                        (acc, saleRecord) -> {
 //                            HashMap<String, Double> newAcc = new HashMap<>(acc);

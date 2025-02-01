@@ -1,10 +1,9 @@
-package sales_analytics;
+package com.daria.sales_analytics;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Main {
 
