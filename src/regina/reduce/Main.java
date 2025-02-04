@@ -3,6 +3,8 @@ package regina.reduce;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,13 +24,11 @@ public class Main {
         // Objective: Use reduce to convert a list of Transactions (date, amount, type) into a TransactionSummary class,
         // then collect these summaries into a map grouped by type.
 
-//      List<TransactionSummary> transactionSummaries =
-//              transactions.stream().reduce(new ArrayList<TransactionSummary>(), ((record1, record2 ) -> {
-//
-//              }), ((a, b) -> {
-//
-//              }));
-//
+        Map<String, Double> totalAmountByCategory = transactions.stream()
+                .collect(Collectors.groupingBy(TransactionRecord::getType,
+                        Collectors.reducing(0.0, TransactionRecord::getAmount, Double::sum)));
+
+        System.out.println(totalAmountByCategory);
 
         //task 2
         //Calculate the sum (10 / (list element)). For example, if your list is: 4, 5, 1, then the sum will be (10/4 + 10/5 + 10/1).
